@@ -1,0 +1,49 @@
+.time-table {
+  height: 48px;
+  margin-right: 10px;
+  span {
+    display: block;
+    position: relative;
+    top: -10px;
+    font-size: 10px;
+    color: #70757a;
+  }
+}
+
+.grid {
+  position: relative;
+  .vertical-line {
+    border-left: 1px solid rgb(218, 220, 224);
+    height: 100%;
+    margin: 0 auto;
+    display: inline-block;
+    left: 10px;
+    top: -10px;
+    position: relative;
+  }
+
+  // this is horizontal block with top border
+  .horizontal-line {
+    height: 47px;
+    border-top: 1px solid rgb(218, 220, 224);
+    width: 350px;
+  }
+
+  .event {
+    // top: -10px;
+    position: absolute;
+    margin-left: 10px;
+    background-color: #039be5;
+    border-radius: 4px;
+    width: 100%;
+    // max-height: 15px;
+
+    span {
+      padding: 5px;
+      word-break: break-word;
+      font-size: 12px;
+      // font-weight: bold;
+      color: #fff;
+    }
+  }
+}

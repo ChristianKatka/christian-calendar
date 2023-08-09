@@ -1,0 +1,17 @@
+<main style="margin-top: 2rem; margin-left: 1rem" class="flex-row">
+  <section>
+    <div class="time-table" *ngFor="let hour of hours">
+      <span>{{ hour }}</span>
+    </div>
+  </section>
+
+  <section class="grid flex-row">
+    <div class="vertical-line"></div>
+    <div>
+      <div class="horizontal-line" *ngFor="let hour of hours"></div>
+    </div>
+    <div class="event">
+      <span>Hammaslääkäri</span>
+    </div>
+  </section>
+</main>

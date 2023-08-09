@@ -1,0 +1,25 @@
+mat-sidenav-container,
+mat-sidenav {
+  height: 100%;
+}
+
+mat-sidenav {
+  width: 70%;
+}
+
+mat-sidenav {
+  // background: radial-gradient(ellipse, #c55d29, #4b1c0d);
+}
+
+mat-sidenav-content {
+  // background-color: #EAD9CD;
+}
+
+// back drop värin muutos
+mat-sidenav-container {
+  ::ng-deep {
+    .mat-drawer-backdrop.mat-drawer-shown {
+      background-color: rgba(0, 0, 0, 0.8) !important;
+    }
+  }
+}
